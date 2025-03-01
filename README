@@ -3,3 +3,5 @@ hyperparam_tuner : Tunes classification models based on synthetic_data.csv
 dp_add_noise : Adds Gaussian and Laplace Noise to the dataset(synthetic_data.csv) and creates dataset_with_gaussian_noise.csv and dataset_with_laplace_noise.csv
 metric_comparison : Compares classification models based on metrics on synthetic_data.csv, dataset_with_gaussian_noise.csv and dataset_with_laplace_noise.csv
 fl.ipynb : Implements federated learning on syntheticdata.csv and evaluates metrics
+fl_with_laplace : Implements federated learning on dataset_with_laplace_noise.csv and evaluates metrics
+fl_with_gaussian : Implements federated learning on dataset_with_gaussian_noise.csv and evaluates metrics
